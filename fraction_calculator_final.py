@@ -3,10 +3,10 @@ from fraction_calculator import calculating_fractions
 
 def main():
     numerator1 = int(input("Enter the numerator1 :"))
-    denominator1 = int(input("Enter the denominator :"))
+    denominator1 = int(input("Enter the denominator1 :"))
     operator = input("Enter operator +, -, *, / :")
     numerator2 = int(input("Enter the numerator2 :"))
-    denominator2 = int(input("Enter the denominator :"))
+    denominator2 = int(input("Enter the denominator2 :"))
 
     print(calculating_fractions(numerator1, numerator2, denominator1, denominator2, operator))
 
